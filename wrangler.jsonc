@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "neverway--org1",
+  "name": "neverway-wiki",
   "compatibility_date": "2026-09-21",
   "main": ".open-next/worker.js",
   "observability": {
