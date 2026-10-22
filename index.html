@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neverway Wiki - Your Ultimate Guide</title>
-  <meta name="description" content="Complete guide to Neverway - horror life sim action RPG. Learn combat, farming, characters, and weapon fusion.">
+  <meta name="description" content="The complete Neverway wiki: survival tips, beginner walkthrough, full bestiary of enemies, achievements list, combat, farming, crafting and characters.">
+  <meta name="keywords" content="Neverway, Neverway wiki, Neverway tips, Neverway walkthrough, Neverway bestiary, Neverway achievements, Neverway enemies, Neverway farming, Neverway crafting">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="canonical" href="https://neverway.org/">
 
@@ -12,19 +13,57 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "VideoGame",
-    "name": "Neverway",
-    "description": "A Horror Life Sim Action RPG where you become the immortal herald of a dead god",
-    "genre": "Horror, RPG, Simulation",
-    "gamePlatform": "PC, Nintendo Switch",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Outersloth"
-    },
-    "developer": {
-      "@type": "Organization",
-      "name": "Coldblood Inc."
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://neverway.org/#website",
+        "name": "Neverway Wiki",
+        "url": "https://neverway.org/",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://neverway.org/#webpage",
+        "url": "https://neverway.org/",
+        "name": "Neverway Wiki - Your Ultimate Guide",
+        "description": "The complete Neverway wiki: survival tips, beginner walkthrough, full bestiary of enemies, achievements list, combat, farming, crafting and characters.",
+        "isPartOf": {
+          "@id": "https://neverway.org/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://neverway.org/#breadcrumb"
+        },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://neverway.org/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://neverway.org/"
+          }
+        ]
+      },
+      {
+        "@type": "VideoGame",
+        "name": "Neverway",
+        "url": "https://neverway.org/",
+        "description": "A Horror Life Sim Action RPG where you become the immortal herald of a dead god",
+        "genre": "Horror, RPG, Simulation",
+        "gamePlatform": "PC, Nintendo Switch",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Outersloth"
+        },
+        "developer": {
+          "@type": "Organization",
+          "name": "Coldblood Inc."
+        }
+      }
+    ]
   }
   </script>
 <script async="async" data-cfasync="false" src="https://bauval.org/21/bd884a9292a4f56632d2edab44efde80"></script>
@@ -52,6 +91,10 @@
         <a href="#combat" class="hover:text-red-400 transition-colors">Combat</a>
         <a href="#farming" class="hover:text-red-400 transition-colors">Farming</a>
         <a href="#guides" class="hover:text-red-400 transition-colors">Guides</a>
+        <a href="tips.html" class="hover:text-red-400 transition-colors">Tips</a>
+        <a href="walkthrough.html" class="hover:text-red-400 transition-colors">Walkthrough</a>
+        <a href="bestiary.html" class="hover:text-red-400 transition-colors">Bestiary</a>
+        <a href="achievements.html" class="hover:text-red-400 transition-colors">Achievements</a>
         <a href="#about" class="hover:text-red-400 transition-colors">About</a>
       </div>
     </div>
@@ -257,26 +300,26 @@
       <div class="rounded-lg p-8 mb-12 border-l-4" style="background: linear-gradient(to right, #16213e, #1a1a2e); border-color: #e94560;">
         <h3 class="text-2xl font-bold text-white mb-2">Start Here: Beginners Guide</h3>
         <p class="text-gray-300 mb-4">New to Neverway? Start with our comprehensive beginners guide.</p>
-        <button class="px-6 py-3 rounded-lg font-semibold text-white" style="background-color: #e94560;">Read Beginners Guide</button>
+        <a href="walkthrough.html" class="inline-block px-6 py-3 rounded-lg font-semibold text-white hover:bg-red-600 transition-colors" style="background-color: #e94560;">Read Beginners Guide</a>
       </div>
 
       <h3 class="text-2xl font-semibold mb-6" style="color: #e94560;">All Guides</h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
+        <a href="walkthrough.html" class="block rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
           <span class="text-4xl mb-4 block">📖</span>
           <h4 class="text-xl font-semibold text-white mb-2">Getting Started</h4>
           <p class="text-gray-400 text-sm">Learn the basics - movement, controls, and first steps</p>
-        </div>
-        <div class="rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
+        </a>
+        <a href="bestiary.html" class="block rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
           <span class="text-4xl mb-4 block">⚔️</span>
           <h4 class="text-xl font-semibold text-white mb-2">Combat Guide</h4>
           <p class="text-gray-400 text-sm">Master timing, combos, weapons, and abilities</p>
-        </div>
-        <div class="rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
+        </a>
+        <a href="tips.html" class="block rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
           <span class="text-4xl mb-4 block">🌾</span>
           <h4 class="text-xl font-semibold text-white mb-2">Farming Guide</h4>
           <p class="text-gray-400 text-sm">Build your farm - crops, animals, upgrades</p>
-        </div>
+        </a>
         <div class="rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
           <span class="text-4xl mb-4 block">👥</span>
           <h4 class="text-xl font-semibold text-white mb-2">Characters & Relationships</h4>
@@ -292,6 +335,11 @@
           <h4 class="text-xl font-semibold text-white mb-2">The Herald</h4>
           <p class="text-gray-400 text-sm">Understand the core story mechanic</p>
         </div>
+        <a href="achievements.html" class="block rounded-lg p-6 hover:border-2 transition-all" style="background-color: #16213e; border: 2px solid transparent;" onmouseover="this.style.borderColor='#e94560'" onmouseout="this.style.borderColor='transparent'">
+          <span class="text-4xl mb-4 block">🏆</span>
+          <h4 class="text-xl font-semibold text-white mb-2">Achievements</h4>
+          <p class="text-gray-400 text-sm">Full unlock list with conditions and tips</p>
+        </a>
       </div>
     </div>
   </section>
@@ -359,6 +407,25 @@
 
 <footer class="py-8 text-center mt-auto" style="background-color: #16213e; border-top: 1px solid #374151;">
     <p class="text-gray-500 text-sm">Neverway Wiki - Fan-made guide. Not affiliated with Coldblood Inc.</p>
+
+    <!-- Related Articles -->
+    <section class="max-w-4xl mx-auto py-8 px-4 border-t border-amber-900">
+      <h3 class="text-xl font-bold mb-4 text-white">You Might Also Like</h3>
+      <div class="grid md:grid-cols-3 gap-4">
+        <a href="tips.html" class="block p-4 bg-amber-900/30 border-amber-900 rounded hover:bg-amber-800/30 transition">
+          <span class="font-semibold text-gray-300">→ Survival Tips &amp; Tricks - Neverway Wiki</span>
+        </a>
+        <a href="walkthrough.html" class="block p-4 bg-amber-900/30 border-amber-900 rounded hover:bg-amber-800/30 transition">
+          <span class="font-semibold text-gray-300">→ Beginner Walkthrough - Neverway Wiki</span>
+        </a>
+        <a href="bestiary.html" class="block p-4 bg-amber-900/30 border-amber-900 rounded hover:bg-amber-800/30 transition">
+          <span class="font-semibold text-gray-300">→ Bestiary: Enemies &amp; Creatures - Neverway Wiki</span>
+        </a>
+        <a href="achievements.html" class="block p-4 bg-amber-900/30 border-amber-900 rounded hover:bg-amber-800/30 transition">
+          <span class="font-semibold text-gray-300">→ Achievements List - Neverway Wiki</span>
+        </a>
+      </div>
+    </section>
   </footer>
 
   <!-- Google Analytics -->

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neverway Bestiary - Enemies, Creatures, Behaviour and Drops Guide</title>
+  <meta name="description" content="Neverway bestiary: every island creature and nightmare enemy with behaviour patterns, weaknesses, counters, drops and the best weapons to beat each.">
+  <meta name="keywords" content="Neverway bestiary, Neverway enemies, Neverway creatures, Neverway drops, Neverway monster guide, Neverway wiki, Neverway boss">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="canonical" href="https://neverway.org/bestiary.html">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://neverway.org/#website",
+        "name": "Neverway Wiki",
+        "url": "https://neverway.org/",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://neverway.org/bestiary.html#webpage",
+        "url": "https://neverway.org/bestiary.html",
+        "name": "Neverway Bestiary - Enemies, Creatures, Behaviour and Drops Guide",
+        "description": "Neverway bestiary covering every island creature and nightmare enemy: behaviour patterns, weaknesses, counters, drops and the best weapons to beat each one with.",
+        "isPartOf": {
+          "@id": "https://neverway.org/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://neverway.org/bestiary.html#breadcrumb"
+        },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://neverway.org/bestiary.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://neverway.org/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Bestiary",
+            "item": "https://neverway.org/bestiary.html"
+          }
+        ]
+      },
+      {
+        "@type": "VideoGame",
+        "name": "Neverway",
+        "url": "https://neverway.org/",
+        "description": "A Horror Life Sim Action RPG where you become the immortal herald of a dead god",
+        "gamePlatform": "PC, Nintendo Switch",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Outersloth"
+        },
+        "developer": {
+          "@type": "Organization",
+          "name": "Coldblood Inc."
+        }
+      }
+    ]
+  }
+  </script>
+
+<script async="async" data-cfasync="false" src="https://bauval.org/21/bd884a9292a4f56632d2edab44efde80"></script>
+<script data-cfasync="false" src="https://bauval.org/14/deb15d839644915ba29f027ce9fbae93"></script>
+<script>
+  atOptions = {
+    'key' : '77c0764f62fdca10d61a86f5a7cca36b',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://bauval.org/22/77c0764f62fdca10d61a86f5a7cca36b"></script>
+</head>
+<body class="bg-gray-950 text-gray-300 min-h-screen flex flex-col" style="background-color: #1a1a2e;">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 px-4 py-3" style="background-color: #16213e; border-bottom: 2px solid #e94560;">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold" style="color: #e94560;">Neverway</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-red-400 transition-colors">Home</a>
+        <a href="tips.html" class="hover:text-red-400 transition-colors">Tips</a>
+        <a href="walkthrough.html" class="hover:text-red-400 transition-colors">Walkthrough</a>
+        <a href="bestiary.html" class="hover:text-red-400 transition-colors">Bestiary</a>
+        <a href="achievements.html" class="hover:text-red-400 transition-colors">Achievements</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Article Header -->
+  <section class="py-16 px-4" style="background: linear-gradient(to bottom, #1a1a2e, #16213e);">
+    <div class="max-w-4xl mx-auto">
+      <p class="text-sm font-semibold mb-3" style="color: #e94560;">NEVERWAY WIKI · BESTIARY</p>
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Neverway Bestiary</h1>
+      <p class="text-gray-400 text-lg">Every creature you will meet on Montgomery Island and in the nightmare beyond — how they behave, where they show up, what they drop, and the fastest way to put them down.</p>
+      <div class="flex gap-4 text-sm mt-6 flex-wrap">
+        <span class="px-4 py-2 rounded-full text-white" style="background-color: #e94560;">Enemies</span>
+        <span class="px-4 py-2 rounded-full text-white bg-gray-700">Creatures</span>
+        <span class="px-4 py-2 rounded-full text-white bg-gray-700">Drops</span>
+        <span class="px-4 py-2 rounded-full text-white bg-gray-700">Counters</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="py-16 px-4" style="background-color: #16213e;">
+    <div class="max-w-4xl mx-auto">
+
+      <h2 class="text-3xl font-bold text-white mb-6">How to Read This Bestiary</h2>
+      <p class="text-gray-300 mb-4">Neverway divides its life into two overlapping worlds. The <strong>island</strong> is where you farm, fish and talk, and the creatures there are mostly passive or mildly hostile. The <strong>nightmare</strong> is the dungeon layer that bleeds into the island after dark, and it is where the genuinely dangerous behaviour lives.</p>
+      <p class="text-gray-300 mb-8">Each entry below lists the tell that gives the creature away, the behaviour pattern to expect, the most efficient answer, and what it is worth. Drop rates vary with your luck and with the difficulty you are playing on, so treat them as a guide rather than a contract. For general survival fundamentals, see our <a href="tips.html" class="font-semibold hover:text-red-400 transition-colors" style="color: #e94560;">survival tips guide</a>.</p>
+
+      <div class="rounded-lg p-6 mb-10 overflow-x-auto" style="background-color: #1a1a2e;">
+        <h3 class="text-xl font-semibold mb-4 text-white">Threat level reference</h3>
+        <table class="w-full text-sm">
+          <thead>
+            <tr style="color: #e94560;">
+              <th class="text-left py-2 px-3">Tier</th>
+              <th class="text-left py-2 px-3">Meaning</th>
+              <th class="text-left py-2 px-3">Recommended gear</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-300">
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Tier 1</td>
+              <td class="py-2 px-3">Farmyard pests and stray island wildlife</td>
+              <td class="py-2 px-3">Any starting weapon</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Tier 2</td>
+              <td class="py-2 px-3">Night spawns that appear around your base</td>
+              <td class="py-2 px-3">Upgraded weapon, door and walls built</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Tier 3</td>
+              <td class="py-2 px-3">Deeper nightmare rooms with elite variants</td>
+              <td class="py-2 px-3">Fused weapon plus a buffed meal</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Tier 4</td>
+              <td class="py-2 px-3">Area bosses and Herald encounters</td>
+              <td class="py-2 px-3">Best available weapon, full pantry, friendship abilities</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Tier 1: Island Wildlife</h2>
+      <p class="text-gray-300 mb-6">These creatures interrupt your routine rather than ending it. You will fight them by accident while chopping wood or clearing grass. They teach you the timing of Neverway's dodge roll, which is the single most important skill in the game.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🐦 Tattletail</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Hops around crop plots in short bursts and pecks at planted seeds. Harmless if you walk past, but it will empty a plot overnight if you ignore it.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> A single wide swing or a basic bow shot clears it. Do not waste stamina on it — chase it away instead.</p>
+      <p class="text-gray-300 mb-6"><strong>Drops:</strong> Feathers, occasional seeds. Sell feathers to Cosmo for a small coin, or craft them into fletching for arrows.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🐛 Grubswarm</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Weak on its own but spawns in clusters of four to six near rot piles and stone outcrops. Attacks are slow and easy to read.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Area attacks or a fused wide-reach weapon. Killing one scatter causes the rest to flinch briefly — a free combo window.</p>
+      <p class="text-gray-300 mb-6"><strong>Drops:</strong> Fibre, grub casing (crafting filler), and a small amount of protein for cooking.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🦔 Brambleback</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Curls into a spiked ball when threatened and rolls along the ground. Contact damage while rolling.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Wait for it to uncurl after the roll ends, then punish. Attacking during the roll wastes stamina and health. A spear with reach beats it hands down.</p>
+      <p class="text-gray-300 mb-8"><strong>Drops:</strong> Hide, bramble fibre and occasionally a rare forage ingredient used in high-tier recipes.</p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Tier 2: Night Spawns</h2>
+      <p class="text-gray-300 mb-6">Once you start advancing the clock into night, these show up. Most of them can be avoided entirely by building a door and walls around the farm, but the ones that get inside are the reason people lose a full day of progress.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🌑 Duskwalker</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Slow, relentless and ignores stagger. It does not stop when hit; it keeps walking until something stops it. This is the creature that teaches you to respect stamina.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Dodge repeatedly and strike between its swings — the recovery window is generous. It cannot be staggered, so do not try. If your stamina bar is empty, you cannot hurt it at all, which makes it a genuine wall for under-geared players.</p>
+      <p class="text-gray-300 mb-6"><strong>Drops:</strong> Shadow dust (used in night-only crafting), and a small chance of a dusk-blade upgrade.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🌿 Creeping Vine</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Rooted in place until you enter its detection range, then lashes out with long-range tendrils. Does not chase you far, but its attacks reach further than they look.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Kill it from range with a bow before it can root you. If you are melee, approach from the side rather than head-on so the tendril swings past you.</p>
+      <p class="text-gray-300 mb-8"><strong>Drops:</strong> Living fibre, sap. Sap is a key ingredient in cooking buffs that extend stamina during night runs.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🕷️ Hollowback</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Retreats into a shell when damaged, then bursts back out with a fast counterattack. Two-phase fight that punishes panic.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Chip the shell down, back off while it recovers, then commit. Bring a healing food because the burst-out phase is where most damage comes from.</p>
+      <p class="text-gray-300 mb-8"><strong>Drops:</strong> Carapace plates (crafting armour), venom sacs used for a strong cook buff.</p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Tier 3: Nightmare Elites</h2>
+      <p class="text-gray-300 mb-6">Elites appear in the deeper nightmare rooms and are the first real test of your build. They have more health, smarter spacing and one signature mechanic each.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🗡️ Bone Choir</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> A cluster of skeletal shapes that split apart when struck and re-form before attacking. One hit means several small enemies instead of one big one.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Use a wide arc that hits all fragments at once, or a weapon with an explosion on impact. Do not use single fast hits — you will never win the re-form race.</p>
+      <p class="text-gray-300 mb-6"><strong>Drops:</strong> Bone shards, and an elite weapon fragment that completes one of the fusion recipes.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🔥 Ember Maw</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Leaves burning ground behind it as it advances. Standing in the trail stacks a damage-over-time effect that quietly drains your health bar.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Keep moving laterally, never backwards in a straight line. Ranged weapons let you kill it while the burning trail stays between you and it.</p>
+      <p class="text-gray-300 mb-8"><strong>Drops:</strong> Ember cores, burnt ore. Embers are the upgrade path for weapon durability — the single most useful material in the mid game.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">👁️ Watcher of the Fen</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Does not attack directly. It watches and marks your position, and other enemies in the room become faster and more aggressive while it lives.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Kill the Watcher first, no matter what is between you and it. A bow shot to break line of sight, or a fast dash to close the gap, both work. Fighting it last is how groups kill you.</p>
+      <p class="text-gray-300 mb-8"><strong>Drops:</strong> Fen-glass, memory shards. Memory shards are needed for the Herald storyline and unlock one of the harder <a href="achievements.html" class="font-semibold hover:text-red-400 transition-colors" style="color: #e94560;">achievements</a>.</p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Tier 4: Bosses</h2>
+      <p class="text-gray-300 mb-6">Bosses gate progression rather than loot. Each one introduces a mechanic that later creatures reuse, so learning them is worth the time.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">👑 The Hollow Warden</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> Alternates between a slow sweeping attack and a charge across the room. The charge is telegraphed by a ground flash — the flash is your cue to roll.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Save stamina for the charge. Attack the flank after every sweep. Fusing a wide weapon with a fast weapon gives you the reach to hit the flank without walking into the sweep.</p>
+      <p class="text-gray-300 mb-6"><strong>Drops:</strong> Warden bone, a bench recipe for the first weapon fusion, and access to the deeper nightmare rooms.</p>
+
+      <h3 class="text-xl font-semibold mb-3" style="color: #e94560;">🌑 Herald of the Dead God</h3>
+      <p class="text-gray-300 mb-2"><strong>Behaviour:</strong> The game's signature encounter, and the reason Fiona is called the Herald. The Herald mirrors your own moveset — it uses the weapon you used against it in the previous attempt. It also heals itself while you are far away, so the fight is designed to be aggressive.</p>
+      <p class="text-gray-300 mb-2"><strong>How to fight:</strong> Bring a second weapon loadout and swap mid-fight to break the mirror. Eat a buffed meal before the encounter and do not let the fight drift into the healing window. Cooperation with a bonded islander's friendship ability is the intended solution for the final phases.</p>
+      <p class="text-gray-300 mb-8"><strong>Drops:</strong> The Herald's sigil, permanent unlock of an extra ability slot, and the story progression toward the ending.</p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Drops and Crafting Value</h2>
+      <div class="rounded-lg p-6 mb-10 overflow-x-auto" style="background-color: #1a1a2e;">
+        <table class="w-full text-sm">
+          <thead>
+            <tr style="color: #e94560;">
+              <th class="text-left py-2 px-3">Material</th>
+              <th class="text-left py-2 px-3">Source</th>
+              <th class="text-left py-2 px-3">Primary use</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-300">
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Shadow dust</td>
+              <td class="py-2 px-3">Duskwalker</td>
+              <td class="py-2 px-3">Night-only weapons and armour</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Carapace plate</td>
+              <td class="py-2 px-3">Hollowback</td>
+              <td class="py-2 px-3">Armour crafting and repairs</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Ember core</td>
+              <td class="py-2 px-3">Ember Maw</td>
+              <td class="py-2 px-3">Weapon durability upgrades</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Memory shard</td>
+              <td class="py-2 px-3">Watcher of the Fen</td>
+              <td class="py-2 px-3">Herald questline and ability unlocks</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Elite fragment</td>
+              <td class="py-2 px-3">Nightmare elites</td>
+              <td class="py-2 px-3">Weapon fusion recipes</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Warden bone</td>
+              <td class="py-2 px-3">The Hollow Warden</td>
+              <td class="py-2 px-3">First fusion bench recipe</td>
+            </tr>
+            <tr style="border-top: 1px solid #374151;">
+              <td class="py-2 px-3">Fen-glass</td>
+              <td class="py-2 px-3">Watcher of the Fen</td>
+              <td class="py-2 px-3">Windows, lamps and light sources</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Farming Tiers Safely</h2>
+      <ol class="list-decimal list-inside space-y-2 text-gray-300 mb-8">
+        <li>Never engage a Tier 3 elite with a Tier 1 weapon — you will burn a night and lose the loot.</li>
+        <li>Build the door and walls before you start farming Tier 2 spawns, or your base will be the arena.</li>
+        <li>Carry exactly one type of healing food per run so you know what you have.</li>
+        <li>Bank loot before pushing to the next room; a death loses everything you are carrying.</li>
+        <li>Look for the Watcher first in any room with more than three enemies.</li>
+        <li>Change your loadout before the Herald — the mirror punishes repetition.</li>
+      </ol>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Where to Go Next</h2>
+      <p class="text-gray-300 mb-6">Plan the run with our <a href="walkthrough.html" class="font-semibold hover:text-red-400 transition-colors" style="color: #e94560;">beginner walkthrough</a>, keep your stamina topped up using the <a href="tips.html" class="font-semibold hover:text-red-400 transition-colors" style="color: #e94560;">survival tips guide</a>, and track your progress against the <a href="achievements.html" class="font-semibold hover:text-red-400 transition-colors" style="color: #e94560;">achievements list</a> — several of them reward you specifically for hunting particular creatures.</p>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div style="display: flex; justify-content: center; margin: 20px 0;">
+    <div id="container-bd884a9292a4f56632d2edab44efde80"></div>
+</div>
+
+<footer class="py-8 text-center mt-auto" style="background-color: #16213e; border-top: 1px solid #374151;">
+  <p class="text-gray-500 text-sm">Neverway Wiki - Fan-made guide. Not affiliated with Coldblood Inc.</p>
+
+    <!-- Related Articles -->
+    <section class="max-w-4xl mx-auto py-8 px-4 border-t border-red-900">
+        <h3 class="text-xl font-bold mb-4 text-white">You Might Also Like</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+        <a href="achievements.html" class="block p-4 bg-red-900/30 border-red-900 rounded hover:bg-red-800/30 transition">
+            <span class="font-semibold text-gray-300">→ Achievements - Neverway Wiki</span>
+        </a>
+        <a href="index.html" class="block p-4 bg-red-900/30 border-red-900 rounded hover:bg-red-800/30 transition">
+            <span class="font-semibold text-gray-300">→ Home - Neverway Wiki</span>
+        </a>
+        <a href="tips.html" class="block p-4 bg-red-900/30 border-red-900 rounded hover:bg-red-800/30 transition">
+            <span class="font-semibold text-gray-300">→ Survival Tips - Neverway Wiki</span>
+        </a>
+        </div>
+    </section>
+</footer>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NHPJBL3B6Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NHPJBL3B6Q');
+  </script>
+</body>
+</html>
